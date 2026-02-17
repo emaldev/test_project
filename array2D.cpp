@@ -18,11 +18,15 @@ int main(){
         for(int j = 0; j < n; j++){
             cout << matrix[i][j] << " ";
             sum += matrix[i][j];
+        
+           
         }
+         
         cout<< endl;
    
-
+ 
      }
-     cout << sum << endl;
+    
+     cout << "sum of matrix is =:> " << sum << endl;
      return 0; 
 }
